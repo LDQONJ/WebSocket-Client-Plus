@@ -1,0 +1,36 @@
+<idea-plugin>
+    <id>work.daqian.plugin.Idea-WebSocket-Plus</id>
+    <name>WebSocket Client Plus</name>
+    <version>1.0.2</version>
+    <vendor>LDQ</vendor>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="232"/>
+
+    <description><![CDATA[
+    A simple WebSocket client for IntelliJ platform IDEs.<br/>
+    This plugin adds WebSocket panel to your tool window.<br/><br/>
+    In the panel, you can connect to a WebSocket API and can submit/receive.<br/><br/>
+    Original Plugin: <a href="https://github.com/fisherman08/idea-WebSocket">WebSocket Client<a/>
+    ]]></description>
+    
+
+    <change-notes><![CDATA[
+    (2026/05/20) 1.0.2 update dependencies<br/>
+    (2021/12/30) 1.0.1 fix platform version<br/>
+    (2021/12/29) 1.0.0 Release
+    ]]></change-notes>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="WebSocket" anchor="bottom"
+                    factoryClass="work.daqian.plugin.idea_websocket_plus.platform.WebSocketToolWindowFactory" icon="work.daqian.plugin.idea_websocket_plus.platform.PluginIIcons.WindowIcon"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>
