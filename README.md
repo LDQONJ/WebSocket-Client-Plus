@@ -11,7 +11,7 @@ A simple WebSocket client for IntelliJ platform.
 
 ### Credits & Acknowledgments
 
-- **Original Project**: [idea-websocket](https://github.com/fisherman08/idea-websocket) (or similar) by [Y.Kaneko](https://github.com/fisherman08)
+- **Original Project**: [idea-websocket](https://github.com/fisherman08/idea-websocket) by [Y.Kaneko](https://github.com/fisherman08)
 
 
 ### Release notes
