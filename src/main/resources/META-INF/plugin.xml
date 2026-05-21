@@ -11,7 +11,8 @@
     A simple WebSocket client for IntelliJ platform IDEs.<br/>
     This plugin adds WebSocket panel to your tool window.<br/><br/>
     In the panel, you can connect to a WebSocket API and can submit/receive.<br/><br/>
-    Original Plugin: <a href="https://github.com/fisherman08/idea-WebSocket">WebSocket Client<a/>
+    Original Plugin: <a href="https://github.com/fisherman08/idea-WebSocket">WebSocket Client<a/><br/><br/>
+    适配了 IDEA 2026，新增了定时心跳请求、格式化 JSON 字符串等实用功能。
     ]]></description>
     
 

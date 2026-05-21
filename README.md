@@ -7,7 +7,7 @@
 
 A simple WebSocket client for IntelliJ platform.
 
-本项目是在原开源项目的基础上进行的二次开发。
+本项目是在原开源项目的基础上进行的二次开发。可以在 IDEA 2026 中使用，增加了定时心跳请求、格式化 JSON 字符串等功能。
 
 ### Credits & Acknowledgments
 
