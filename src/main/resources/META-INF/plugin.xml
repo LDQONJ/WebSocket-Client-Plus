@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>work.daqian.plugin.Idea-WebSocket-Plus</id>
     <name>WebSocket Client Plus</name>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <vendor>LDQ</vendor>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
